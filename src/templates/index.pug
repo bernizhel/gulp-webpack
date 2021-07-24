@@ -1,0 +1,10 @@
+doctype html
+head
+    block variables
+    title #{myTitle}
+    link(rel='stylesheet' href='main.css')
+body
+    - var i = 0
+    while i < 10
+        p paragraph number #{++i}
+    script(src='scripts/main.js')
